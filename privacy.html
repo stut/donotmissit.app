@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<script defer src="https://v.donotmissit.app/v/s.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · DoNotMissIt</title>
+<meta name="description" content="The DoNotMissIt app does not collect, store or transmit any personal data. Your calendar never leaves your Mac.">
+<meta name="theme-color" content="#262A42">
+<link rel="canonical" href="https://donotmissit.app/privacy">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Text", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ink: #1D1D1F;
+  --ink-2: #55585F;
+  --mist: #EEF0F4;
+  --line: rgba(29, 29, 31, .1);
+  --link: #A64A0C;
+  --focus: #0062CC;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font: 17px/1.6 var(--font); color: var(--ink); background: var(--mist); -webkit-font-smoothing: antialiased; }
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+.menubar :focus-visible { outline-color: #9CCBFF; }
+.wrap { width: min(1280px, 100% - 2 * clamp(24px, 4.5vw, 80px)); margin-inline: auto; }
+
+.menubar { height: 32px; display: flex; align-items: center; padding: 0 8px; color: #fff; font-size: 13px; font-weight: 500; background: #262A42; }
+.menubar a { display: flex; align-items: center; gap: 7px; height: 26px; padding: 0 10px; border-radius: 999px; color: inherit; text-decoration: none; white-space: nowrap; }
+.menubar a:hover { background: rgba(255, 255, 255, .18); }
+.menubar .app { font-weight: 700; }
+.menubar .app img { width: 18px; height: 18px; }
+
+main { padding: clamp(64px, 9vw, 120px) 0; }
+article { max-width: 40em; }
+h1 { margin: 0 0 8px; font-size: clamp(38px, 4.6vw, 60px); line-height: 1.05; letter-spacing: -.035em; }
+.updated { margin: 0 0 40px; color: var(--ink-2); font-size: 15px; }
+.lede { font-size: 21px; line-height: 1.45; font-weight: 600; letter-spacing: -.01em; }
+h2 { margin: 48px 0 8px; font-size: 22px; letter-spacing: -.01em; }
+p { margin: 0 0 16px; }
+label { cursor: pointer; }
+input[type=checkbox] { width: 18px; height: 18px; margin: 0 8px 0 0; vertical-align: -3px; accent-color: var(--link); }
+
+footer { border-top: 1px solid var(--line); padding: 28px 0 48px; font-size: 14px; color: var(--ink-2); }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; }
+footer p { margin: 0; }
+footer ul { display: flex; flex-wrap: wrap; gap: 8px 22px; list-style: none; margin: 0; padding: 0; }
+footer a { color: var(--ink-2); }
+</style>
+</head>
+<body>
+<header class="menubar">
+  <a class="app" href="/"><img src="favicon.png" alt="" width="18" height="18">DoNotMissIt</a>
+</header>
+
+<main>
+  <article class="wrap">
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated 19 October 2026</p>
+    <p class="lede">The DoNotMissIt app does not collect, store or transmit any personal data.</p>
+
+    <h2>The app</h2>
+    <p>Calendar events are read on your Mac only to show meeting alerts and are never sent anywhere. The app has no analytics, advertising or accounts.</p>
+    <p>The app runs in Apple's App Sandbox with access to your calendars and no permission to use the network. macOS asks you to allow calendar access when you first open it. The app only reads events and never changes them.</p>
+    <p>When you choose to join a meeting, its link opens in your browser or meeting app.</p>
+    <p>DoNotMissIt is open source, so you can <a href="https://github.com/stut/donotmissit">read the code</a> and check this for yourself.</p>
+
+    <h2>This website</h2>
+    <p>This site counts its visitors to see which pages are read and how people find them. The counting sets no cookies and never stores your IP address. <a href="https://3ft9.com/privacy/analytics">How the counting works, and your rights</a>.</p>
+    <p><label><input type="checkbox" id="v-opt-out"> Don't count my visits to this site</label></p>
+    <p>Ticking the box stores the date you ticked it in this site's local storage, and nothing else. While it is there, your visits aren't counted. Nor are they when your browser sends the Global Privacy Control signal.</p>
+    <p>The site is hosted on Cloudflare Pages, which may log visitors' IP addresses for security. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>.</p>
+
+    <h2>Questions</h2>
+    <p>Ask on <a href="https://github.com/stut/donotmissit/issues">GitHub issues</a>.</p>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <p>© 2026 Stuart Dallas</p>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="https://github.com/stut/donotmissit">Source code</a></li>
+      <li><a href="https://github.com/stut/donotmissit/issues">Support</a></li>
+      <li><a href="https://github.com/stut/donotmissit/blob/main/LICENSE">MIT licence</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
