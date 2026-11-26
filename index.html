@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="DoNotMissIt">
 <meta property="og:title" content="DoNotMissIt: meeting alerts for Mac you can't miss">
-<meta property="og:description" content="Shortly before each meeting, DoNotMissIt covers every display with a card and a live countdown. Press Return to join, Esc to dismiss.">
+<meta property="og:description" content="Get a full-screen alert when your meeting starts or up to 10 minutes before. Press Return to join, Esc to dismiss.">
 <meta property="og:url" content="https://donotmissit.app/">
 <meta property="og:image" content="https://donotmissit.app/img/join.jpg">
 <meta property="og:image:width" content="1600">
@@ -246,7 +246,7 @@ footer a { color: var(--ink-2); }
     <div class="wrap desk-grid">
       <div class="desk-copy">
         <h1 id="h1">Notifications are easy to miss.<br> This isn't.</h1>
-        <p class="lede">DoNotMissIt sits in your Mac's menu bar. Shortly before each meeting, it covers every display with a card showing the meeting and a live countdown. Press Return to join the call, or Esc to dismiss.</p>
+        <p class="lede">DoNotMissIt sits in your Mac's menu bar. Choose when its alert appears on every display, from 10 minutes before a meeting right up to its start. Press Return to join the call, or Esc to dismiss.</p>
         <div class="ctas">
           <a class="badge" href="https://apps.apple.com/app/donotmissit/id6822468104"><img src="img/mac-app-store-black.svg" alt="Download on the Mac App Store" width="156" height="40"></a>
           <button class="glass" id="preview" data-js hidden data-title="Daily Standup" data-cal="Work" data-when="9:00 – 9:15" data-join="Zoom" data-start="15">Preview an alert</button>
@@ -279,13 +279,13 @@ footer a { color: var(--ink-2); }
           <p class="mark">8m</p>
           <div class="shot corner"><img src="img/menu.jpg" width="960" height="600" loading="lazy" alt="The Mac menu bar showing Daily Standup · 8m, open to a list of today's meetings from 9:00 Daily Standup to 17:30 Gym."></div>
           <h3>In the menu bar</h3>
-          <p>Your next meeting and the time until it starts. Click it to see what's coming up, and choose one to preview its alert.</p>
+          <p>Click the menu bar icon to see upcoming meetings. Choose one to preview its alert, or choose <strong>Open Calendar</strong> to open your default calendar app.</p>
         </li>
         <li style="--c: #B05A0C; --dot: var(--orange)">
           <p class="mark">0:42</p>
           <div class="shot"><img src="img/join.jpg" width="1600" height="1000" loading="lazy" alt="The alert for Q4 Roadmap Review, 10:30 to 11:30, with a Join Google Meet button and an orange ring showing 0:42 until start."></div>
           <h3>On every screen</h3>
-          <p>Shortly before the start, a card covers every display. It finds the join link in the event's URL, location or notes, so Return takes you straight into the call.</p>
+          <p>The alert shows the meeting and a live timer. It finds the join link in the event's URL, location or notes, so Return takes you straight into the call.</p>
         </li>
         <li style="--c: #C4362E; --dot: var(--red)">
           <p class="mark">+0:27</p>
@@ -308,7 +308,7 @@ footer a { color: var(--ink-2); }
           <dl>
             <div class="row"><dt>Join links</dt><dd>Zoom, Google Meet, Microsoft Teams, Webex, Whereby and GoTo.</dd></div>
             <div class="row"><dt>In person</dt><dd>No link means the card shows the location and just a Dismiss button.</dd></div>
-            <div class="row"><dt>Same start time</dt><dd>Events starting together are combined into one alert.</dd></div>
+            <div class="row"><dt>Same start time</dt><dd>Meetings that start together share one alert. Each meeting with a call link has its own Join button.</dd></div>
             <div class="row"><dt>Two calendars</dt><dd>A meeting that appears in both only alerts once.</dd></div>
             <div class="row"><dt>Skipped</dt><dd>All-day, cancelled and declined events.</dd></div>
             <div class="row"><dt>After sleep</dt><dd>If a meeting started in the last 5 minutes while your Mac was asleep, it alerts when you wake it.</dd></div>
@@ -317,10 +317,12 @@ footer a { color: var(--ink-2); }
         <div class="group">
           <h3>Settings</h3>
           <dl>
-            <div class="row"><dt>Remind me</dt><dd>At the start time, or 1 to 10 minutes before.</dd></div>
+            <div class="row"><dt>Remind me</dt><dd>Choose “At time of event” to get the alert as the meeting starts, or set it for 1 to 10 minutes before.</dd></div>
             <div class="row"><dt>Look ahead</dt><dd>How far ahead the menu bar looks for meetings, from 4 hours to a month.</dd></div>
+            <div class="row"><dt>Menu bar shows</dt><dd>Show the next meeting’s name and the time until it starts, just the time remaining, or just the icon.</dd></div>
             <div class="row"><dt>Start at login</dt><dd>Your choice.</dd></div>
           </dl>
+          <p>Open Settings from the menu bar. The window appears on your current Space.</p>
         </div>
       </div>
     </div>
@@ -332,6 +334,7 @@ footer a { color: var(--ink-2); }
       <div class="cols">
         <div>
           <h3>Private</h3>
+          <p>When macOS asks for calendar access, the prompt explains that DoNotMissIt reads your events to show alerts. Your events stay on your Mac and the app never edits them.</p>
           <p>The app has no analytics, no advertising and no accounts. It doesn't collect, store or transmit any personal data, and it runs in Apple's App Sandbox with no permission to use the network.</p>
           <ul><li><a href="privacy.html">Privacy policy</a></li></ul>
         </div>
@@ -352,7 +355,7 @@ footer a { color: var(--ink-2); }
     <div class="wrap">
       <img class="icon" src="img/icon.png" alt="" width="264" height="264" loading="lazy">
       <h2 id="get-h">Don't miss the next one.</h2>
-      <p class="intro">DoNotMissIt for macOS Tahoe 26 or later.</p>
+      <p class="intro">DoNotMissIt <a href="https://github.com/stut/donotmissit/releases/tag/v1.1">v1.1</a> for macOS Tahoe 26 or later.</p>
       <a class="badge" href="https://apps.apple.com/app/donotmissit/id6822468104"><img src="img/mac-app-store-black.svg" alt="Download on the Mac App Store" width="156" height="40" loading="lazy"></a>
     </div>
   </section>
